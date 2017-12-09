@@ -51,10 +51,10 @@ BOARD_MKBOOTIMG_ARGS := --base 0x40078000 --pagesize 2048 --kernel_offset 0x0000
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 
 # Kernel Sources
-TARGET_KERNEL_SOURCE := kernel/amoi/l861
-TARGET_KERNEL_CONFIG := amoi_l861_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+# TARGET_KERNEL_SOURCE := kernel/amoi/l861
+# TARGET_KERNEL_CONFIG := amoi_l861_defconfig
+# TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+# BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
 
 TARGET_KMODULES := true

@@ -234,9 +234,9 @@ PRODUCT_PACKAGES += \
     lights.mt6795
 
 # Fingerprint
-PRODUCT_PACKAGES += \
-    FPAuthService \
-		UruidFingerprint
+# PRODUCT_PACKAGES += \
+#    FPAuthService \
+#		UruidFingerprint
 
 # TWRP
 PRODUCT_COPY_FILES += \

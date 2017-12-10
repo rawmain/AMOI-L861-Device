@@ -173,21 +173,25 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     ro.secure=0 \
-	security.perf_harden=1 \
     ro.allow.mock.location=1 \
     ro.debuggable=1 \
     ro.zygote=zygote64_32 \
-	dalvik.vm.image-dex2oat-Xms=64m \
-	dalvik.vm.image-dex2oat-Xmx=64m \
-	dalvik.vm.dex2oat-Xms=64m \
-	dalvik.vm.dex2oat-Xmx=512m \
-	ro.dalvik.vm.native.bridge=0 \
-	debug.atrace.tags.enableflags=0 \
     camera.disable_zsl_mode=1 \
     ro.mount.fs=EXT4 \
     persist.service.acm.enable=0 \
-    persist.sys.usb.config=mtp,adb \
-	service.adb.root=1
+    persist.sys.usb.config=mtp
+
+#	security.perf_harden=1 \
+
+#	dalvik.vm.image-dex2oat-Xms=64m \
+#	dalvik.vm.image-dex2oat-Xmx=64m \
+#	dalvik.vm.dex2oat-Xms=64m \
+#	dalvik.vm.dex2oat-Xmx=512m \
+#	ro.dalvik.vm.native.bridge=0 \
+#	debug.atrace.tags.enableflags=0 \
+
+#	service.adb.root=1
+
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.android.checkjni=0 \

@@ -181,4 +181,4 @@ endif
 BOARD_SEPOLICY_DIRS := \
        device/amoi/l861/sepolicy
 
-POLICYVERS := 29
+POLICYVERS := 30
